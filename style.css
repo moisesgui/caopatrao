@@ -1,3 +1,36 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: blue;
+    background: #e7e9e7;
+    color: #555;
+    font-family: monospace, Helvetica, sans-serif;
+}
+
+/* cor header #fec63e*/
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
 }
