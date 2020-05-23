@@ -1,36 +1,37 @@
-body, h1, h2, p, ul, li, a {
-    margin: 0px;
-    padding: 0px;
+*px {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
-
-body {
-    background: #e7e9e7;
-    color: #555;
-    font-family: monospace, Helvetica, sans-serif;
-}
-
-/* cor header #fec63e*/
-
-
-ul {
+ol, ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
-img {
+body {
     display: block;
-    max-width: 100%;
+    margin: 0 auto;
 }
-
 .container {
-    display: flex;
+    flex: 1;
     max-width: 960px;
     margin: 0 auto;
 }
 
-* {
-    box-sizing: border-box;
+/*/Header Menu/*/
+
+.header {
+    max-width: 100%;
+    height: 60px    ;
+    background-color: #fcc33f;
+    
+}
+.item-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.item-menu li {
+    margin: 0 15px;
 }
