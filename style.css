@@ -32,10 +32,11 @@ img {
 
 .header {
     background-color: #fcc33f;
+    width: 100%;
+    height: 60px;
     padding: 15px 0;
     position: fixed;
     top: 0;
-    width: 100%;
     background: #fec63e;
     z-index: 10
 }
@@ -83,7 +84,16 @@ img {
 .introducao {
     flex: 1;
     width: 100%;
-    background: url('../img/bg-intro.jpg') no-repeat center;
+    height: 480px;
+    background: url('https://dm2301files.storage.live.com/y4mggkk8V2kMzesBar1V3MYub0QI37rJ3DSIZOowAF0n2EVpGVc_zxf869u-C9KOWWREsUQMlaLKY5MRqK7asvVvp5wnKgcBcrdc2UwpwmT67xxBDqhie86PVopofAUVeUU2yzviW-_xczV8omwR2rqLGt7IDbpWLJlvr5HjH4QRCQa9zMlbtYT8zuM8XqN-hbIdd5kIaI2wZ3xdyVhx26V0w/_MG_2461.png?psid=1&width=1247&height=829') no-repeat center;
     background-size: cover;
 
+}
+.introducao h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 200px 350px;
 }
