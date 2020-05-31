@@ -1,3 +1,118 @@
-body {
-    background-color: blue;
+body, h1 ,h2 ,p ,ul ,li ,a {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+/*/Header Menu/*/
+
+.header {
+    background-color: #fcc33f;
+    width: 100%;
+    height: 60px;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    background: #fec63e;
+    z-index: 10
+}
+
+.header-logo a  {
+    margin: 0 10px;
+}
+
+.header-menu {
+    flex: 1;
+    margin: 0 10px;
+    align-self: center;
+    
+}
+
+.item-menu  {
+    display: flex;
+    float: right;
+}
+
+.header-menu ul, li, a {
+    padding: 0 10px;
+    width: 0 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: .1em;
+    line-height: 20px;
+    transition: all .3s ease
+}
+
+.header-menu ul, li, a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+
+
+/* Introdição */
+
+
+.introducao {
+    width: 100%;
+    height: 480px;
+    background: url('https://dm2301files.storage.live.com/y4mggkk8V2kMzesBar1V3MYub0QI37rJ3DSIZOowAF0n2EVpGVc_zxf869u-C9KOWWREsUQMlaLKY5MRqK7asvVvp5wnKgcBcrdc2UwpwmT67xxBDqhie86PVopofAUVeUU2yzviW-_xczV8omwR2rqLGt7IDbpWLJlvr5HjH4QRCQa9zMlbtYT8zuM8XqN-hbIdd5kIaI2wZ3xdyVhx26V0w/_MG_2461.png?psid=1&width=1247&height=829') no-repeat center;
+    background-size: cover;
+
+}
+.introducao h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 200px;
+
+}
+
+span {
+    background: blue;
+}
+
+.divisor p:before, .divisor p:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    background: black;
+    margin: 10px auto 10px auto;
 }
