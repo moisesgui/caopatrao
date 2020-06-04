@@ -17,6 +17,7 @@ a {
 
 img {
     display: block;
+
     max-width: 100%;
 }
 
@@ -46,6 +47,12 @@ img {
 
 .header-logo a  {
     margin: 0 10px;
+}
+
+.header-log a:hover {
+    color: white;
+    transition: all 0.2s ease;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .header-nav ul {
@@ -125,6 +132,8 @@ span {
     margin-top: 120px;
     background: gold;
     border-radius: 60px;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.24);
 }
 
 .btn:hover {
@@ -134,4 +143,25 @@ span {
 
 /*Produtos*/
 
-/*amanhã tem mais*/
+.produtos-titulo {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    background: url("../img/y4mggkk8V2kMzesBar1V3MYub0QI37rJ3DSIZOowAF0n2EVpGVc_zxf869u-C9KOWWREsUQMlaLKY5MRqK7asvVvp5wnKgcBcrdc2UwpwmT67xxBDqhie86PVopofAUVeUU2yzviW-_xczV8omwR2rqLGt7IDbpWLJlvr5HjH4QRCQa9zMlbtYT8zuM8XqN-hbIdd5kIaI2wZ3xdyVhx26V0w") no-repeat center;
+    background-size: cover;
+}
+
+
+.produtos-titulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 6px auto 10px auto;
+}
+
+
