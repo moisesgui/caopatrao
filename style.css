@@ -205,6 +205,77 @@ span {
     margin-left: 325px;
 }
 
+/*Portifólio*/
+
+.portfolio {
+    max-width: 960px;
+    margin: 0 auto;
+    background: black;
+}
+
+.portfolio-h2 {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.portfolio-h2:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: white;
+    margin: 6px auto 10px auto;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item  {
+    flex: 1;
+    border: solid 1px white;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.portfolio-item:hover {
+    color: gray;
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.24);
+}
 
 
+.dogred {
 
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);
+}
+
+.dogblack {
+   
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);}
+
+.dogblue {
+    
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);}
+
+.doggray {
+    
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);}
+
+
+.portfolio-call a {
+    margin-bottom: 100px;
+}
+
+
+.portfolio-call p {
+    color: white;
+    margin-left: 370px;
+}
