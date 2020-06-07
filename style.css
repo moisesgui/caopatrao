@@ -151,6 +151,7 @@ span {
 .produtos {
     max-width: 960px;
     margin: 60px auto;
+    padding: 40px auto;
 }
 
 .produtos-container {
@@ -201,15 +202,21 @@ span {
    
 }
 
+.produtos-call a {
+    margin: 10px auto;
+}
+
 .produtos-call p {
+    margin-top: 100px;
     margin-left: 325px;
 }
 
 /*Portifólio*/
 
 .portfolio {
-    max-width: 960px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 100px auto;
+    padding: 40px 0;
     background: black;
 }
 
@@ -271,11 +278,144 @@ span {
 
 
 .portfolio-call a {
-    margin-bottom: 100px;
+    margin: 10px auto;
+    
 }
 
 
 .portfolio-call p {
     color: white;
-    margin-left: 370px;
+    margin-top: 80px;
+    margin-left: 570px;
+}
+
+/*Qualidade*/
+
+.qualidade-h2 {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+}
+
+.qualidade-h2:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: black;
+    margin: 6px auto 10px auto;
+}
+
+.qualidade:after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 3090px;
+    left: 359px;
+}
+
+.qualidade img {
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.qualidade-lista {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.qualidade-lista li h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.qualidade-lista li h3:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: black;
+    margin: 2px auto;
+}
+
+.qualidade-call {
+    padding: 90px;
+}
+
+.qualidade-call p {
+    margin-top: 100px;
+    margin-left: 480px;
+}
+
+.qualidade-call a {
+    margin: 10px auto;
+}
+
+
+
+/*Qubra*/
+
+.quebra {
+    width: 100%;
+    height: 200px;
+    background: url('img/footernovo.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.quebra-externo {
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quebra-externo p {
+   align-items: center;
+}
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    background: black;
+}
+
+.footer-ct {
+    display: flex;
+}
+
+.footer h3  {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-historia p {
+    font-size: 18px;
+    color: white;
+}
+
+.footer-redes ul li {
+  
+}
+
+.copy {
+    background: gold;
+    height: 50px;
 }
