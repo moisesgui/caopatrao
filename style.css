@@ -108,7 +108,7 @@ span {
 
 
 .btn {
-    max-width: 300px;
+    max-width: 200px;
     margin: 20px auto;
     color: black;
     text-align: center;
@@ -406,13 +406,42 @@ span {
     text-transform: uppercase;
 }
 
+.footer-historia {
+    margin: 10px;
+}
+
 .footer-historia p {
     font-size: 18px;
     color: white;
+    text-align: center;
+}
+
+.footer-contato {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+.footer-contato ul {
+    align-self: center;
+    list-style: none;
+}
+
+.footer-redes {
+    margin: 10px auto;
+}
+
+
+.footer-redes ul {
+  display: flex;
+  margin: 15px auto;
 }
 
 .footer-redes ul li {
-  
+    margin: 5px;
+    align-self: center;
 }
 
 .copy {
