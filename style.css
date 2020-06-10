@@ -73,43 +73,39 @@ img {
 
 
 .introducao {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 480px;
     background: url('https://dm2301files.storage.live.com/y4mU-40dAdhc4dIMTCH4WfLCTk702FuFh8cHoXZRiyXkDyE6eInQnAyYWpM0vJfD6F8hYjMrHXBNjDJUyHWEQa-xqnv64IwWI9VF1wudvIlOxwaRAV8H9I6V7vXDGq_uyIVJaDNmdNnloGc_wvP_nknkTWBTef7vFme-3ilFpVWES3PzhJyx_RPtuVpJYeQqzg0weHND_LLHKEJPQ8a8tamXg/_MG_2460.png?psid=1&width=788&height=525') no-repeat center;
     background-size: cover;
-
 }
+
+.introducao-ct {
+    flex: 1 1 300px;
+}
+
 .introducao h1 {
-    padding: 20px;
     padding-top: 150px;
-    text-align: center;
     letter-spacing: 3px;
-    margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 48px;
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 0 425px;
 }
 
-.introducao span {
+.introducao p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    margin: 392px;
-    text-align: left;
-    
-
+    color: white;
+    margin: 0 390px;
 }
-
-span {
-    color: #fff;
-}
-
 
 .btn {
     max-width: 200px;
-    margin: 20px auto;
     color: black;
     text-align: center;
     text-transform: uppercase;
@@ -198,8 +194,12 @@ span {
 .produtos-divisao img {
    margin-top: 10px;
    padding-left: 10px;
-   width: 950px;
-   
+   width: 950px; 
+}
+
+.produtos-call {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .produtos-call a {
@@ -260,26 +260,24 @@ span {
 
 
 .dogred {
-
     box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);
 }
 
 .dogblack {
-   
-    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);}
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);
+}
 
 .dogblue {
-    
-    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);}
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);
+}
 
 .doggray {
-    
-    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);}
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.2), 0 8px 20px 0 rgba(97, 96, 96, 0.24);
+}
 
 
 .portfolio-call a {
-    margin: 10px auto;
-    
+    margin: 10px auto;    
 }
 
 
@@ -440,11 +438,13 @@ span {
 }
 
 .footer-redes ul li {
-    margin: 5px;
+    margin: 0 10px;
     align-self: center;
 }
 
 .copy {
     background: gold;
-    height: 50px;
+    height: 60px;
 }
+
+
