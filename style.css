@@ -115,6 +115,7 @@ img {
     padding: 15px 0;
     display: block;
     margin-top: 120px;
+    margin-left: 570px;
     background: gold;
     border-radius: 60px;
     transition: all 0.2s ease;
@@ -197,13 +198,22 @@ img {
    width: 950px; 
 }
 
-.produtos-call {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .produtos-call a {
-    margin: 10px auto;
+    max-width: 200px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.125em;
+    letter-spacing: 3px;
+    padding: 15px 0;
+    display: block;
+    margin-top: 20px;
+    margin-left: 380px;
+    background: gold;
+    border-radius: 60px;
+    transition: all 0.2s ease;
 }
 
 .produtos-call p {
@@ -440,6 +450,15 @@ img {
 .footer-redes ul li {
     margin: 0 10px;
     align-self: center;
+}
+
+.footer-redes ul li:hover {
+   transform: scale(1.1);    
+}
+
+.img {
+    border: 1px solid #f5d02c;
+    padding: 3px;
 }
 
 .copy {
